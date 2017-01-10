@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "sensu-extensions-notifu"
-  spec.version       = "1.6.0"
+  spec.version       = "1.0.0"
   spec.authors       = ["Radek 'blufor' Slavicinsky"]
   spec.email         = ["<radek.slavicinsky@gmail.com>"]
 
@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.description   = "Notifu handler extension"
   spec.homepage      = "https://github.com/blufor/sensu-extensions-notifu"
 
-  spec.files         = Dir.glob('{bin,lib}/**/*') + %w(LICENSE README.md CHANGELOG.md)
+  spec.files         = Dir.glob('{bin,lib}/**/*') + %w(LICENSE README.md)
   spec.require_paths = ["lib"]
 
   spec.add_dependency "sensu-extension"
